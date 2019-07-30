@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="script.js"></script>
+</head>
+<body>
+<form>
+    <p>AMOUNT</p>
+    <input type="number",placeholder="vnd" id="sotien">
+    <p>FROMCURRENCY</p>
+    <select id="input">
+        <option value="23000">vnd</option>
+        <option value="1">usd</option>
+    </select>
+     <p>TO CUREENCY</p>
+    <select id="output">
+        <option value="1">usd</option>
+        <option value="23000">vnd</option>
+    </select> <br>
+    <input type="button" value=" Convert" onclick="chuyenDoi()">
+    Result:
+    <span id="result"></span>
+</form>
+</body>
+</html>
